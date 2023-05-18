@@ -13,6 +13,7 @@ def Binary_Search(jib):
             if jib[i] >= current + mid:
                 current = jib[i]
                 count += 1
+                
         if count >= C:
             start = mid + 1
             result = mid
